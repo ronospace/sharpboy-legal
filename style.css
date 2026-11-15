@@ -64,6 +64,18 @@ header.top {
 
 .brand:hover { text-decoration: none; }
 
+.brand .by {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+  padding-left: 10px;
+  margin-left: 2px;
+  border-left: 1px solid var(--line);
+  line-height: 1.2;
+  max-width: 150px;
+}
+
 .mark {
   width: 26px;
   height: 26px;
@@ -243,5 +255,6 @@ footer a { color: var(--ink2); }
   .lede { font-size: 16px; }
   main.wrap { padding-top: 28px; padding-bottom: 56px; }
   .top nav { width: 100%; margin-left: 0; }
+  .brand .by { max-width: none; font-size: 10.5px; }
   th, td { padding: 9px 10px; font-size: 13.5px; }
 }
