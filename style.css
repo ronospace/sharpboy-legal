@@ -100,7 +100,7 @@ header.top {
   border-color: #e0d3fb;
 }
 
-main { padding: 40px 0 72px; }
+main.wrap { padding-top: 40px; padding-bottom: 72px; }
 
 h1 {
   font-size: 34px;
@@ -241,7 +241,7 @@ footer a { color: var(--ink2); }
 @media (max-width: 560px) {
   h1 { font-size: 27px; }
   .lede { font-size: 16px; }
-  main { padding: 28px 0 56px; }
+  main.wrap { padding-top: 28px; padding-bottom: 56px; }
   .top nav { width: 100%; margin-left: 0; }
   th, td { padding: 9px 10px; font-size: 13.5px; }
 }
